@@ -4,7 +4,7 @@ from fer import FER
 # Initialize the emotion detector
 emotion_detector = FER()
 
-# Open webcam
+# Open webcamm
 cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
