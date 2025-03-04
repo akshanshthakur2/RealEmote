@@ -17,7 +17,7 @@ while True:
     ret, frame = cap.read()
     
     if not ret:
-        print("Error: Could not read frame.")
+        print("Error: Could not read the frame.")
         break
 
     # Detect emotions in the frame
