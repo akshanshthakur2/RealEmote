@@ -49,6 +49,18 @@ If `DeepFace` or `FER` fails, reinstall with:
 ```sh
  pip install deepface fer
 ```
+### OpenCV Import Error (`ModuleNotFoundError: No module named 'cv2'`)
+```bash
+pip install opencv-contrib-python
+```
+### MoviePy Import Error (`ModuleNotFoundError: No module named 'moviepy.editor'`)
+Fix: Use `from moviepy import ...` instead of `from moviepy.editor import ...`
+
+### NumPy Version Conflict
+```bash
+pip install numpy==1.26.4 --force-reinstall
+```
+
 
 ## Contributing
 Feel free to fork and contribute to this project. Open a PR with your changes!
