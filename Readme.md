@@ -22,12 +22,12 @@ RealEmote is a real-time facial emotion detection system using Python, OpenCV, a
  source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 ```
 
-### 3. Install Dependencies
+### 📝 3. Install Dependencies
 ```sh
  pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### 🚀 4. Run the Application
 ```sh
  python emotion_detection.py
 ```
@@ -36,7 +36,7 @@ To test on a video file:
 python emotion_detection.py --video path/to/video.mp4
 ```
 
-## Troubleshooting
+## 🔥 Troubleshooting
 ### Module Not Found Errors
 If you encounter missing modules, try reinstalling them manually:
 ```sh
@@ -62,9 +62,9 @@ pip install numpy==1.26.4 --force-reinstall
 ```
 
 
-## Contributing
-Feel free to fork and contribute to this project. Open a PR with your changes!
+## 📌 Contribution
+Feel free to open issues or pull requests for improvements.
 
-## License
+## 📜 License
 MIT License
 
