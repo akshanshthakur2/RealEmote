@@ -31,6 +31,10 @@ RealEmote is a real-time facial emotion detection system using Python, OpenCV, a
 ```sh
  python emotion_detection.py
 ```
+To test on a video file:
+```bash
+python emotion_detection.py --video path/to/video.mp4
+```
 
 ## Troubleshooting
 ### Module Not Found Errors
